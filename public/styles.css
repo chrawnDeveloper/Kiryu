@@ -1,0 +1,103 @@
+body {
+    background-image: url('/images/yakuzaKiwami.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0; 
+    font-family: 'Arial', sans-serif; 
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 60px; 
+    border-radius: 24px; 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3); 
+    background: linear-gradient(-45deg, #333333, #333333, transparent);
+    border: 2px solid #000;
+}
+
+h2 {
+    font-size: 32px; 
+    color: #fff;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 30px; 
+}
+
+label {
+    font-size: 20px; 
+    display: block;
+    margin-bottom: 5px; 
+    color: #fff;
+}
+
+select, input {
+    border: 2px solid #000;
+    font-size: 18px; 
+    width: 100%;
+    padding: 16px; 
+    box-sizing: border-box;
+    border-radius: 12px; 
+}
+
+button {
+    font-size: 20px; 
+    background-color: #660000;
+    color: #fff;
+    padding: 16px; 
+    border: 2px solid #000;
+    border-radius: 12px; 
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #330000;
+}
+
+.result {
+    text-align: right;
+    margin-top: 30px; 
+    font-weight: bold;
+    font-size: 20px; 
+    color: #333333;
+}
+
+.credit {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+}
+
+#infoCircle{
+    height: 16px;
+    display: none;
+    background-image: url('../images/info.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    vertical-align: text-top;
+    display: none;
+    cursor: pointer;
+}
+
+#resultContainer{
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+}
+

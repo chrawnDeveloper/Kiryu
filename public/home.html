@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiryu Currency Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="home.js" defer></script>
+</head>
+<body>
+    <div class="container">
+
+        <h2>Currency Converter</h2>
+
+        <div class="input-group">
+            <input type="number" id="value" placeholder="Enter the amount" oninput="limitInput(this, 10)">
+        </div>
+
+        <div class="input-group">
+            <label for="originCurrency">From:</label>
+            <select id="originCurrency"></select>
+        </div>
+
+        <div class="input-group">
+            <label for="destinyCurrency">To:</label>
+            <select id="destinyCurrency"></select>
+        </div>
+
+        <button onclick="convertCurrency()">Convert</button>
+
+        <div id="resultContainer">
+
+            <div id="results" class="result">&nbsp;</div>
+            
+            <div id="infoCircle"></div>
+
+        </div>
+
+    </div>
+    <span class="credit">
+        Made by: Chrawn
+    </span>
+</body>
+</html>
